@@ -1,0 +1,183 @@
+@import '_vars';
+
+.exclusive{
+  background-color: $banner-colors;
+  height: auto;
+  padding: 15px 25px;
+  text-align: center;
+}
+.web-exclusive-text{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.new-item-text{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.see-menu{
+  background-color: $banner-colors;
+  height: auto;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.see-menu-subWrappers{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pic-wrapper{
+  width: 100%;
+  height: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.picOnMain{
+  width: 250px;
+  height: auto;
+  border-radius: 25px;
+  align-self: center;
+}
+.btn-wrapper{
+  margin-top: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bold-text{
+  text-align: center;
+  color: #8a2332;
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+.descriptions{
+  text-align: center;
+  font-size: 2rem;
+}
+.shop-web-section{
+  background-color: #f1eee7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px 25px;
+}
+.bold-text-black{
+  color: black;
+  margin-bottom: 15px;
+}
+.description-wrapper{
+  max-width: 450px;
+  align-self: center;
+}
+.descriptions-smaller{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.getApp-section{
+  background-image: url('../assets/red-background.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.getApp-wrapper{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.getAppText-wrapper{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.getApp{
+  width: 200px;
+}
+.getAppText{
+  width: 300px;
+  height: auto;
+  align-self: center;
+  margin-top: 20px;
+}
+.app-text-wrap{
+  max-width: 400px;
+  align-self: center;
+}
+.bold-text-white{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.download-place{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: auto;
+  align-self: center;
+}
+.appStores-wrapper{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 480px) {
+  .see-menu{
+    background-color: #f1eee7;
+  }
+}
+@media (min-width: 768px){
+  .see-menu{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .picOnMain{
+    width: 250px;
+    height: auto;
+  }
+  .webShopping{
+    width: 450px;
+  }
+}
+@media (min-width: 992px){
+  .getApp-section{
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+  }
+  .getApp{
+    width: 100%;
+  }
+  .app-text-wrap{
+    width: 100%;
+  }
+  .appStores-wrapper{
+    flex-direction: row;
+  }
+  .googlePlay{
+    margin-right: 10px;
+  }
+  .appStore{
+    margin-left: 10px;
+  }
+}
+
+

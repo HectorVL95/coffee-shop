@@ -1,0 +1,141 @@
+@import '_vars';
+
+footer{
+background-image: url('../assets/black-background.png');
+height: auto;
+background-size: 3300px;
+padding: 35px 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-repeat: no-repeat;
+background-position: 50% 100%;
+padding-top: 20px;
+
+}
+.ul-lists{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ul-lists > ul {
+  color: white;
+  list-style: none;
+  align-self: center;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+.ul-lists > ul > li{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+
+.ul-lists > ul > li:hover{
+  color: #3abbdd;
+}
+.ul-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: unset !important;
+}
+.ul-title:hover{
+  color: white !important;
+}
+.stayNtouch-section > p{
+  color: white;
+  text-align: center;
+}
+.stayNtouch-title{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.stayNtouch-text{
+  font-size: 1.2rem;
+}
+.subscribe{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subscribe > input{
+  align-self: center;
+  width: 220px;
+  height: 45px;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+}
+.subscribe > button{
+  width: 220px;
+  height: 45px;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 800;
+  background-color: rgb(253, 184, 19);
+  border: none;
+  border-radius: 6px;
+}
+.social-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.session-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 40px;
+}
+.session-coffee{
+  width: 130px;
+  height: auto;
+  align-self: center;
+}
+.download-stores{
+  display: flex;
+  justify-content: space-between;
+}
+.download-place{
+  width:130px;
+}
+.gplay{
+  margin-right: 10px;
+}
+.appstore{
+  margin-left: 10px;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: space-evenly; 
+  width: 200px;
+  align-self: center;
+  margin-top: 25px;
+}
+.social-media-icons > img{
+  width: 30px;
+  height: auto;
+}
+.footer-about{
+  margin-top: 25px;
+}
+.footer-about > p{
+  text-align: center;
+  color: #8a8a8a;
+  letter-spacing: 1.5px;
+  font-family: sofia-pro-soft,sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.copyright{
+  margin-bottom: 10px;
+}

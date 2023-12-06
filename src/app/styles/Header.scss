@@ -1,0 +1,79 @@
+header{
+  background-color: black;
+  height: 60px;
+}
+.header-icons{
+  padding: 20px 20px ;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.logo-shop:hover{
+  cursor: pointer;
+}
+.header-nav{
+  background-color: #151515;
+  padding: 10px 20px ;
+  position: absolute;
+  top: 60px;
+  height: 70%;
+  width: 100vw;
+  z-index: 10;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.header-nav > ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+}
+.header-nav > ul > li{
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 800;
+  font-size: 1.9rem;
+}
+
+@media (min-width: 990px) {
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header-icons{
+    justify-self: unset;
+  }
+  .burgerMenu{
+    display: none;
+  }
+
+  .header-nav{
+    position: relative;
+    background-color: unset;
+    height: auto;
+    top: unset;
+    width: unset;
+    z-index: unset;
+    padding: unset;
+    align-self: center;
+  
+  }
+  .header-nav > ul{
+    flex-direction: row;
+  }
+  .header-nav > ul > li{
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+  .header-nav > ul > li:hover{
+    cursor: pointer;
+    border-bottom: #3abbdd 7px solid;
+  }
+}
