@@ -2,7 +2,6 @@ import antiguaCoffee from '../assets/antigua-coffee.jpeg'
 import bagCoffee from '../assets/bags-coffee.jpg'
 import cupCoffee from '../assets/coffee-cup.jpeg'
 import grainCoffee from '../assets/grains-coffee.jpg'
-import Image from 'next/image'
 
 const slidesData = [
   {

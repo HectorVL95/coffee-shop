@@ -1,0 +1,76 @@
+.SkipLines{
+  background-image: url('../assets/yellowBackground.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skipping-wrapper{
+  align-self: center;
+}
+.skipping-img{
+  width: 250px;
+  height: auto;
+}
+.skip-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  max-width: 300px;
+}
+.skip-text > h2{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.skip-text > p{
+text-align: center;
+font-size: 1.4rem;
+line-height: 25px;
+}
+.appStores-wrapper{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+.download-place{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: auto;
+  align-self: center;
+}
+.googlePlay{
+  margin-right: 10px;
+}
+.appStore{
+  margin-left: 10px;
+}
+@media (min-width:768px) {
+  .SkipLines{
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .skip-text{
+    zoom: 140%;
+  }
+  .skipping-img{
+    zoom: 140%;
+  }
+}
+@media (min-width:900px){
+  .skip-text{
+    zoom: 200%;
+  }
+  .skipping-img{
+    zoom: 200%;
+  }
+}

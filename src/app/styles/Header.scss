@@ -36,7 +36,10 @@ header{
   font-weight: 800;
   font-size: 1.9rem;
 }
-
+.header-nav > ul > li > a{
+  color: white;
+  text-decoration: none;
+}
 @media (min-width: 990px) {
   header{
     display: flex;

@@ -24,6 +24,21 @@ const btnText = [
   txt: 'View Location',
   backgroundColor:'black'
   },
+  {
+  id:5,
+  txt: 'Add to Cart',
+  backgroundColor: '#fcb524'
+  },
+  {
+  id:6,
+  txt: 'Get Started',
+  backgroundColor: '#fcb524'
+  },
+  {
+    id:7,
+    txt: 'Submit',
+    backgroundColor: '#fcb524'
+  }
 ]
 
 export default btnText;

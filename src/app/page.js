@@ -8,14 +8,9 @@ import Menu from './client/Menu';
 export default function Home() {
   return (
     <main>
-      <BrowserRouter>
-        <Header/>
-        <Routes>
-          <Route path='/' element={<Main/>}/>
-          <Route path='/menu' element={<Menu/>}/>
-        </Routes>
-        <Footer/>
-      </BrowserRouter>
+      <Header/>
+      <Main/>
+      <Footer/>
     </main>
   )
 }

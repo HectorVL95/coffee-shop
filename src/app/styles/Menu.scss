@@ -2,4 +2,74 @@
 
 .Menu{
   background-color: $banner-colors;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-presentation > h1{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+.menu-presentation > p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 25px;
+}
+.menu-sections{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40px;
+}
+.menu-wrapper{
+  align-self: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.menu-wrapper:hover{
+  zoom: 110%;
+}
+.menu-wrapper > a{
+  text-decoration: none;
+}
+.menu-wrapper > a > img{
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.menu-wrapper > a > p{
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+}
+.menu-wrapper > a > p > span{
+  font-size: 1.8rem;
+}
+@media (min-width:480px) {
+  .Menu{
+    background-color: #f1eee800;
+  }
+  .menu-presentation{
+    max-width: 320px;
+    align-self: center;
+  }
+}
+@media (min-width: 768px) {
+  .menu-presentation{
+    max-width: 480px;
+    align-self: center;
+  }
+  .menu-sections{
+    flex-direction: row;
+  }
+  .menu-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }

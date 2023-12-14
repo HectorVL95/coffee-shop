@@ -13,6 +13,11 @@ background-position: 50% 100%;
 padding-top: 20px;
 
 }
+.wrapper-ulList-subs{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 .ul-lists{
   display: flex;
   justify-content: center;
@@ -55,6 +60,7 @@ padding-top: 20px;
 }
 .stayNtouch-text{
   font-size: 1.2rem;
+  color: white;
 }
 .subscribe{
   margin-top: 15px;
@@ -138,4 +144,18 @@ padding-top: 20px;
 }
 .copyright{
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .wrapper-ulList-subs{
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  .ul-lists{
+  flex-direction: row;
+ }
+ .ul-lists > ul{
+  margin-left: 20px;
+  margin-right: 20px;
+ }
 }

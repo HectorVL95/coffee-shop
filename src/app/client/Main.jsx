@@ -13,6 +13,7 @@ import getApp from '../assets/getApp.png'
 import getTheAppText from '../assets/getTheAppText.png'
 import appStore from '../assets/appStore.png'
 import googlePlay from '../assets/googlePlay.png'
+import Link from 'next/link';
 
 const Main = () => {
 
@@ -28,7 +29,7 @@ const Main = () => {
       <ImageSlider dataEl={slidesData}/>
       <section className='see-menu'>
       <div className='pic-wrapper'>
-          <Image className='picOnMain' src={productTable}/>
+          <Image className='picOnMain' src={productTable} alt='Product Table'/>
           <div className='btn-wrapper'>
             <p className='bold-text'>Our menu for you to view!</p>
             {button[0]}
@@ -36,7 +37,7 @@ const Main = () => {
           </div>
         </div>
         <div className='pic-wrapper'>
-          <Image className='picOnMain' src={boxes}/>
+          <Image className='picOnMain' src={boxes} alt='Boxes'/>
           <div className='btn-wrapper'>
             <p className='bold-text'>Box Gifts!</p>
             {button[1]}
@@ -44,7 +45,7 @@ const Main = () => {
           </div>
         </div>
         <div className='pic-wrapper'>
-          <Image className='picOnMain' src={merch}/>
+          <Image className='picOnMain' src={merch} alt='merch'/>
           
           <div className='btn-wrapper'>
             <p className='bold-text'>New merch!</p>
@@ -54,7 +55,7 @@ const Main = () => {
         </div>
       </section>
       <section className='shop-web-section'>
-        <Image className='picOnMain webShopping' src={webShopping}/>
+        <Image className='picOnMain webShopping' src={webShopping} alt='Web Shopping'/>
         <p className='bold-text bold-text-black'>
         Shop the webstore
         </p>
@@ -67,17 +68,17 @@ const Main = () => {
       </section>
       <section className='getApp-section'>
         <div className='getApp-wrapper'>
-          <Image className='picOnMain getApp' src={getApp}/>
+          <Image className='picOnMain getApp' src={getApp} alt='Get App'/>
         </div>
         <div className='getAppText-wrapper'>
-          <Image className='getAppText' src={getTheAppText}/>
+          <Image className='getAppText' src={getTheAppText} alt='Get App'/>
           <div className='app-text-wrap'>
           <p className='bold-text bold-text-black bold-text-white'>Download our Coffee Shop App to enjoy mobile ordering, earn and redeem points on your cafe favorites, simple payment, earn a free bag of coffee on your birthday, and more. Sign-up is easy, download the app to get started</p>
           </div>
           <div className='appStores-wrapper'>
-            <Image className='download-place googlePlay' src={googlePlay}/>
+            <Image className='download-place googlePlay' src={googlePlay} alt='Google Play'/>
             <Image
-            className='download-place appStore' src={appStore}/>
+            className='download-place appStore' src={appStore} alt='App Store'/>
           </div>
         </div>
       </section>

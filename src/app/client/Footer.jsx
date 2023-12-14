@@ -12,6 +12,7 @@ import vimeoIcon from '../assets/vimeoIcon.svg'
 const Footer = () => {
   return (
     <footer>
+      <div className='wrapper-ulList-subs'>
       <section className='ul-lists'>
         <ul>
           <li className='ul-title'>MENU</li>
@@ -46,6 +47,7 @@ const Footer = () => {
           <li>Gift Card Balance</li>
         </ul>
       </section>
+      
       <section className='stayNtouch-section'>
         <p className='stayNtouch-title'>Stay in Touch</p>
         <p className='stayNtouch-text'>Join our coffee lovers community and be the first to know about our news, promotions and more!</p>
@@ -54,6 +56,7 @@ const Footer = () => {
           <button>Subscribe</button>
         </form>
       </section>
+      </div>
       <section className='social-section'>
         <div className='session-wrap'>
           <Image className='session-coffee' src={sessionsCoffee}/>

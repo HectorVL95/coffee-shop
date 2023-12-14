@@ -1,0 +1,36 @@
+.MenuSelection{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.menuImg{
+  width: 250px;
+  height: auto;
+  align-self: center;
+  margin-bottom: 15px;
+}
+.item-text-wrap{
+  width: 250px;
+  align-self: center;
+}
+.itemName{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.itemDescription{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.itemPrice{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+

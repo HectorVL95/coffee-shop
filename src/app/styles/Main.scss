@@ -144,6 +144,9 @@
   }
 }
 @media (min-width: 768px){
+  .getAppText-wrapper{
+    zoom: 140%;
+  }
   .see-menu{
     flex-direction: row;
     justify-content: space-evenly;
@@ -165,6 +168,9 @@
   }
   .getApp{
     width: 100%;
+  }
+  .getAppText-wrapper{
+    zoom: 200%;
   }
   .app-text-wrap{
     width: 100%;
