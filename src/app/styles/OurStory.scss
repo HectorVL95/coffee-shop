@@ -1,0 +1,42 @@
+.OurStory{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffefbc;
+}
+.story-h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.story-p{
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600; 
+  margin-bottom: 30px;
+}
+.story-troubador-section{
+  background-image: url('../assets/blue-pattern-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 35px
+}
+.bakery{
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.join-team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 35px;
+}
