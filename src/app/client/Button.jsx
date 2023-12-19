@@ -4,7 +4,7 @@ import '../styles/Button.scss'
 const Button = ({dataEl}) => {
 
   return (
-    <button style={{backgroundColor: `${dataEl.backgroundColor}`}} className='site-button'>
+    <button onClick={dataEl.onButtonClick} style={{backgroundColor: `${dataEl.backgroundColor}`}} className='site-button'>
       {dataEl.txt} 
     </button>
   );

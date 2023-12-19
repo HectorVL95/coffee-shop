@@ -120,8 +120,15 @@ padding: 35px 25px;
   margin-bottom: 20px;
 }
 .form-section > form > input{
-  width: 100%;
+  width: 95%;
   height: 40px;
   padding-left: 10px;
   margin-bottom: 15px;
+}
+.form-section > form > textarea{
+  width: 95%;
+  height: 80px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
 }

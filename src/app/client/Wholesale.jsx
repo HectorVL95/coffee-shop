@@ -9,7 +9,14 @@ import training from '../assets/training.png'
 
 const Wholesale = () => {
 
-  const button = btnData.map(dataEl => {return <Button dataEl={dataEl} key={dataEl.id}/>} )
+  const button = btnData.map(dataEl => {return <Button onButtonClick={scrolltoForm} dataEl={dataEl} key={dataEl.id}/>} )
+
+  function scrolltoForm(){
+    window.scrollTo({
+      bottom: 0,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <main className="wholesale">
@@ -59,7 +66,7 @@ const Wholesale = () => {
         <input type="telephone" placeholder='Phone Number' required/>
         <input type="text" placeholder='Company' required/>
         <input type="text" placeholder='Location' required/>
-        <input type="text" placeholder='Message' required/>
+        <textarea type="text" placeholder='Message' required/>
         {button[7]}
       </form>
       </section>   
