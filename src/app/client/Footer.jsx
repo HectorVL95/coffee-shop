@@ -68,9 +68,9 @@ const Footer = () => {
         </div>
       </section>
       <section className='social-media-icons'>
-          <Image src={fbIcon}/>
-          <Image src={igIcon}/>
-          <Image src={vimeoIcon}/>
+        <Image src={fbIcon}/>
+        <Image src={igIcon}/>
+        <Image src={vimeoIcon}/>
       </section>
       <section className='footer-about'>
         <p className='copyright'>© COFFEE SHOP ROASTERS, INC. 2023</p>

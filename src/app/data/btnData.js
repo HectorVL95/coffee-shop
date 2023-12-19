@@ -38,6 +38,11 @@ const btnText = [
     id:7,
     txt: 'Submit',
     backgroundColor: '#fcb524'
+  },
+  {
+    id:8,
+    txt: 'Learn More',
+    backgroundColor: '#fcb524'
   }
 ]
 

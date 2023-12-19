@@ -3,15 +3,13 @@
 footer{
 background-image: url('../assets/black-background.png');
 height: auto;
-background-size: 3300px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 padding: 35px 25px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-repeat: no-repeat;
-background-position: 50% 100%;
-padding-top: 20px;
-
 }
 .wrapper-ulList-subs{
   display: flex;
@@ -112,6 +110,7 @@ padding-top: 20px;
 }
 .download-place{
   width:130px;
+  height: auto;
 }
 .gplay{
   margin-right: 10px;
