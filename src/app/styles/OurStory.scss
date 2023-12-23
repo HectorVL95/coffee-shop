@@ -5,6 +5,26 @@
   align-items: center;
   background-color: #ffefbc;
 }
+.story-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.story-text-wrapper{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.story-img{
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
 .story-h1{
   text-align: center;
   font-size: 3rem;
@@ -17,8 +37,12 @@
   font-weight: 600; 
   margin-bottom: 30px;
 }
-.story-troubador-section{
-  background-image: url('../assets/blue-pattern-background.png');
+.vivaColectivo{
+  width:80%;
+  height: auto;
+  align-self: center;
+}
+.storyBackground{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,17 +50,41 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 35px
+  padding: 25px 35px;
+  width:100%
 }
-.bakery{
-  width: 200px;
-  height: auto;
-  margin-bottom: 20px;
+.atOrigin{
+  background-image: url('../assets/blueSky-pattern-background.png');
 }
+
+.story-troubador-section{
+  background-image: url('../assets/blue-pattern-background.png');
+
+}
+
+.foodPartners{
+  background-image: url('../assets/yellow-pattern-background.png');
+
+}
+
 .join-team{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 25px 35px;
+}
+@media (min-width:768px) {
+  .story-text-wrapper{
+    width: 425px;
+  }
+}
+@media (min-width:1026px) {
+  .storyBackground{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .story-img{
+    width: 350px;
+  }
 }

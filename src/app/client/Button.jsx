@@ -1,10 +1,11 @@
+'use client'
 import React from 'react'
 import '../styles/Button.scss'
 
-const Button = ({dataEl}) => {
+const Button = ({dataEl, onClick}) => {
 
   return (
-    <button onClick={dataEl.onButtonClick} style={{backgroundColor: `${dataEl.backgroundColor}`}} className='site-button'>
+    <button onClick={onClick} style={{backgroundColor: `${dataEl.backgroundColor}`}} className='site-button'>
       {dataEl.txt} 
     </button>
   );

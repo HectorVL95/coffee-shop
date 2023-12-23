@@ -8,6 +8,24 @@ header{
   justify-content: space-between;
   position: relative;
 }
+.icons-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.signIn{
+  margin-right: 20px;
+}
+.cart-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.cartItem{
+  color: white;
+  font-size: 1.6rem;
+}
+
 .logo-shop:hover{
   cursor: pointer;
 }

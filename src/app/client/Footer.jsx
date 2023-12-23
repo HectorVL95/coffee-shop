@@ -59,18 +59,18 @@ const Footer = () => {
       </div>
       <section className='social-section'>
         <div className='session-wrap'>
-          <Image className='session-coffee' src={sessionsCoffee}/>
+          <Image className='session-coffee' src={sessionsCoffee} alt='Session Coffee'/>
         </div>
         <div className='download-stores'>
-          <Image className='download-place gplay' src={googlePlay}/>
+          <Image className='download-place gplay' src={googlePlay} alt='Google Play'/>
           <Image
-          className='download-place appstore' src={appStore}/>
+          className='download-place appstore' src={appStore} alt='App Store'/>
         </div>
       </section>
       <section className='social-media-icons'>
-        <Image src={fbIcon}/>
-        <Image src={igIcon}/>
-        <Image src={vimeoIcon}/>
+        <Image src={fbIcon} alt='Fb Icon'/>
+        <Image src={igIcon} alt='Ig Icon'/>
+        <Image src={vimeoIcon} alt='Vimeo Icon'/>
       </section>
       <section className='footer-about'>
         <p className='copyright'>© COFFEE SHOP ROASTERS, INC. 2023</p>

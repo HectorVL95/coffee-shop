@@ -5,6 +5,8 @@ import logo from '../assets/colectivo-logo.png'
 import menuBtn from '../assets/menuBtn.svg'
 import '../styles/Header.scss'
 import Link from 'next/link';
+import signIn from '../assets/account-white.svg'
+import cart from '../assets/cart-white.svg'
 
 const Header = () => {
   const[showNav, setShowNav]= useState(false)
@@ -31,7 +33,16 @@ const Header = () => {
         <Link href='/'>
         <Image className='logo-shop' src={logo} width={140} height='auto' alt='logo'/>
         </Link>
-        <Image className='burgerMenu' src={menuBtn} width={25} height='auto' onClick={showNavbar} alt='burguer menu'/>
+        <div className='icons-wrapper'>
+            <Link href='/signIn'>
+              <Image className='signIn' src={signIn}  width={25} height='auto' alt='sign in'/>
+            </Link>  
+            <div className='cart-wrapper'>
+            <Image className='icon cart' src={cart} width={25} height='auto' alt='cart'/>
+            <span className='cartItem'>0</span>
+          </div>
+          <Image className='burgerMenu' src={menuBtn} width={25} height='auto' onClick={showNavbar} alt='burguer menu'/>
+        </div>
       </div>
       {showNav &&
       <nav className={`header-nav`}>
@@ -40,6 +51,7 @@ const Header = () => {
           <li>Rewards</li>
           <li><Link href='/wholesale'>WholeSale</Link></li>
           <li><Link href='/ourStory'>Our Story</Link></li>
+          <li>Shop</li>
         </ul>
       </nav>}
     </header>

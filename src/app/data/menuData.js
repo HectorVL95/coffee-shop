@@ -13,57 +13,66 @@ const menuData = [
     imgSrc: baconEggCheese,
     itemName: 'Bacon Egg & Cheese Croissant',
     itemDescription: 'A classic breakfast sandwich featuring an egg frittata, Jones Dairy Farm bacon, and Wisconsin cheddar cheese on a flaky Troubadour croissant bun.',
-    price: '$15.00'
+    price: '$15.00',
+    alt: 'Bacon Egg Cheese'
   },
   {
     id: 1,
     imgSrc: burrito,
     itemName: 'Burrito',
     itemDescription: 'Egg, smoked chorizo, poblano peppers, pepper jack and refried beans wrapped in a flour burrito.',
-    price: '$14.00'
+    price: '$14.00',
+    alt: 'Burrito'
   },
   {
     id: 2,
     imgSrc: bagle,
     itemName: 'Impossible Bagle',
     itemDescription: 'IMPOSSIBLE™ plant-based sausage, plant-based JUST Egg, vegan provolone cheese, avocado mash, spinach and tomato on a chewy Troubadour Everything bagel.',
-    price: '$18.00'
+    price: '$18.00',
+    alt: 'Impossible Bagle'
   },
   {
     id:3,
     imgSrc: espresso,
     itemDescription: 'Our featured coffee of the week roasted and brewed fresh for on the go.',
-    price:'$5.00'
+    price:'$5.00',
+    alt: 'Espresso'
   },
   {
     id:4,
     imgSrc: latte,
     itemDescription: 'Espresso Toro combined with steamed milk and lightly topped with foam. Rich, creamy, and smooth on its own, or choose your favorite syrup for added flavor and a touch of sweetness. Served hot or iced. Dairy alternatives available.',
-    price:'$8.00'
+    price:'$8.00',
+    alt: 'Latte'
   },
   {
     id:5,
     imgSrc: tea,
     itemDescription: 'A variety of artfully-crafted Letterbox Fine Teas. Please see cafes or the app for a full menu of green, black & herbal selections.',
-    price:'$5.00'
+    price:'$5.00',
+    alt: 'Tea'
   },
   {
     id:6,
     imgSrc: cinamonRoll,
     itemDescription: 'Our decadent cinnamon roll topped with a buttermilk vanilla glaze..',
-    price:'$7.00'
+    price:'$7.00',
+    alt: 'Cinamon Roll'
   },
   {
     id:7,
     imgSrc: muffin,
     itemDescription: 'Plump wild blueberries & bright lemon zest with a light streusel topping.',
-    price:'$4.00'
+    price:'$4.00',
+    alt: 'Muffin'
   },
   {
     id:8,
     imgSrc: cookie,
     itemDescription: 'A crunchy cookie packed with oats, coconut, pecans, and chocolate chunks. Perfect fuel for the trail ahead!.',
-    price:'$6.00'
+    price:'$6.00',
+    alt: 'Cookie'
   }
 ]
 

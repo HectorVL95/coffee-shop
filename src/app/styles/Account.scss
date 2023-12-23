@@ -1,0 +1,56 @@
+.Account{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+}
+.name-wrapper{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.name-wrapper > p{
+  text-align: center;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.name-wrapper > h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.orders-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.orders-wrap{
+  margin-bottom: 60px;
+}
+.orders-wrap > h2{
+  font-size: 1.8rem;
+  font-size: 800;
+  text-align: left;
+}
+.orders-wrap > p{
+  font-weight: 600;
+  text-align: left;
+}
+.address-contact-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.address-contact-wrap > button{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: #d3d3d3;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.Contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.Contact > img{
+  margin-bottom: 20px;
+}
+.Contact > h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.csr{
+  width: 80px;
+  height: auto;
+}
+.contact-txt-wrap{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.contact-txt-wrap > p{
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  font-weight: 600
+}

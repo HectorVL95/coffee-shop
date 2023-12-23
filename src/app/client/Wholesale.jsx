@@ -1,3 +1,4 @@
+'use client'
 import '../styles/Wholesale.scss'
 import Button from './Button';
 import btnData from '../data/btnData'
@@ -7,16 +8,32 @@ import bus from '../assets/bus.png'
 import wrench from '../assets/wrench.png'
 import training from '../assets/training.png'
 
-const Wholesale = () => {
-
-  const button = btnData.map(dataEl => {return <Button onButtonClick={scrolltoForm} dataEl={dataEl} key={dataEl.id}/>} )
+const Wholesale = ({dataEl}) => {
 
   function scrolltoForm(){
-    window.scrollTo({
-      bottom: 0,
-      behavior: 'smooth'
-    })
+    const forma = document.querySelector('.form-section')
+    forma.scrollIntoView({behavior: 'smooth'})
   }
+
+  const handleButtonClick = (index) => {
+   if (index === 6){
+    scrolltoForm();
+  }
+
+  }
+
+
+  const button = btnData.map((dataEl, index) => {
+    return (
+      <Button
+        key={dataEl.id}
+        dataEl={dataEl}
+        onClick={() => handleButtonClick(index)}
+      />
+    );
+  });
+
+
 
   return (
     <main className="wholesale">
@@ -36,7 +53,7 @@ const Wholesale = () => {
         {offerData.map(dataEl => 
         {
         return <div className='offers'>
-          <Image src={dataEl.img} alt={dataEl.alt}/>
+          <Image src={dataEl.img} alt={dataEl.alt} key={dataEl.id}/>
           <h2>{dataEl.title}</h2>
           <p>{dataEl.description}</p>
         </div>})}

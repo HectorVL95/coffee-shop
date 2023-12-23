@@ -13,7 +13,7 @@ const MenuSelection = ({dataEl}) => {
 
   return (
     <section className='MenuSelection'>
-      <Image className='menuImg' src={dataEl.imgSrc}/>
+      <Image className='menuImg' src={dataEl.imgSrc} alt={dataEl.alt}/>
       <div className='item-text-wrap'>
       <p className='itemName'>{dataEl.itemName}</p>
       <p className='itemDescription'>{dataEl.itemDescription}</p>
