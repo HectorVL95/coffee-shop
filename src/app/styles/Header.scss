@@ -25,22 +25,23 @@ header{
   color: white;
   font-size: 1.6rem;
 }
-
 .logo-shop:hover{
   cursor: pointer;
 }
 .header-nav{
-  background-color: #151515;
+  background-color: black;
   padding: 10px 20px ;
   position: absolute;
   top: 60px;
-  height: 70%;
+  height: 0px;
   width: 100vw;
   z-index: 10;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
 }
-
+.header-nav.active{
+  height: 300px;
+}
 .header-nav > ul{
   display: flex;
   flex-direction: column;
@@ -86,6 +87,10 @@ header{
     align-self: center;
   
   }
+  .header-nav.active{
+    height: auto;
+  }
+
   .header-nav > ul{
     flex-direction: row;
   }

@@ -44,8 +44,7 @@ const Header = () => {
           <Image className='burgerMenu' src={menuBtn} width={25} height='auto' onClick={showNavbar} alt='burguer menu'/>
         </div>
       </div>
-      {showNav &&
-      <nav className={`header-nav`}>
+      <nav className={`header-nav ${showNav ? 'active' : ''}`}>
         <ul>
           <li><Link href='/menu'>Menu</Link> </li>
           <li>Rewards</li>
@@ -53,7 +52,7 @@ const Header = () => {
           <li><Link href='/ourStory'>Our Story</Link></li>
           <li>Shop</li>
         </ul>
-      </nav>}
+      </nav>
     </header>
   );
 }
