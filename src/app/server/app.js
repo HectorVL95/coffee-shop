@@ -65,14 +65,13 @@ app.post('/addUser', async (req, res) =>{
     const savedUser = await newUser.save();
     res.json(savedUser);
   } catch (error){
-    console.error('Error while adding a new user:', error
-    );
+    console.error('Error while adding a new user:', error);
     res.status(500).json({error: 'Internal Server Error'})
   }
 })
 
 //DELETE router to delete an user
-app.delete('/deleteUser/:id',async(req, res)=>{
+app.delete('/deleteUser/:userId', async(req, res)=>{
   const userId = req.params.userId;
 
   try{
